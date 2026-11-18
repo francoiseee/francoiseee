@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" role="img" aria-labelledby="t">
+  <title id="t">Francoise, fullstack developer and UI designer</title>
+  <defs>
+    <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M14 0H0V14" fill="none" stroke="#e7e3dc" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect x="1" y="1" width="838" height="238" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="840" height="240" fill="#fdfcf8"/>
+    <rect width="840" height="240" fill="url(#grid)"/>
+  </g>
+  <rect x="1" y="1" width="838" height="238" rx="16" fill="none" stroke="#e4dcef" stroke-width="2"/>
+
+  <!-- doodles -->
+  <g fill="none" stroke="#8ec5ec" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M66 62a4 4 0 1 1 8 0a8 8 0 1 1-16 0a12 12 0 1 1 24 0a16 16 0 1 1-32 0"/>
+    <path d="M58 196a4 4 0 1 1 8 0a8 8 0 1 1-16 0a12 12 0 1 1 24 0" opacity=".7"/>
+    <path d="M712 66l52-22-20 46-10-16z M734 74l30-30"/>
+    <path d="M706 70q-24 14-46 6" stroke-dasharray="2 8" opacity=".8"/>
+  </g>
+
+  <!-- name, drawn as rounded strokes -->
+  <g transform="translate(-25 0)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g id="name" stroke-width="14">
+      <path d="M210 60V140M210 60H250M210 98H240"/>
+      <path d="M268 90V140M268 110Q268 90 292 91"/>
+      <path d="M348 115A23 23 0 1 1 302 115A23 23 0 1 1 348 115M348 92V140"/>
+      <path d="M368 140V90M368 112Q368 90 390 90Q410 90 410 112V140"/>
+      <path d="M473 99A24 24 0 1 0 473 131"/>
+      <path d="M538 115A23 23 0 1 1 492 115A23 23 0 1 1 538 115"/>
+      <path d="M560 92V140M560 66V66.5"/>
+      <path d="M612 96Q600 88 590 91Q579 96 586 106Q594 113 604 117Q618 125 608 135Q596 144 580 135"/>
+      <path d="M634 115H678A23 23 0 1 0 671 131"/>
+    </g>
+    <use href="#name" stroke="#f3c6d8" transform="translate(3 4)"/>
+    <use href="#name" stroke="#c25a86"/>
+  </g>
+
+  <text x="420" y="190" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="18" fill="#4a4360">fullstack developer · ui designer</text>
+
+  <!-- the cat -->
+  <g fill="none" stroke="#4a4360" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M764 216Q760 198 768 188L770 172L781 183Q786 181 791 183L802 172L804 188Q812 198 808 216Q802 226 786 226Q770 226 764 216Z" fill="#fdfcf8"/>
+    <path d="M760 206H749M761 212L751 215M812 206H823M811 212L821 215"/>
+    <path d="M783 209q3 3 6 0"/>
+  </g>
+  <g fill="#4a4360">
+    <circle cx="778" cy="201" r="3"/>
+    <circle cx="794" cy="201" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="120" viewBox="0 0 270 120" role="img" aria-labelledby="t">
+  <title id="t">Gastosaurus: budget tracker + dino friend, full stack</title>
+  <defs>
+    <pattern id="g" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M12 0H0V12" fill="none" stroke="#ffffff" stroke-opacity=".35"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="268" height="118" rx="14" fill="#a9dcc8"/>
+  <rect x="1" y="1" width="268" height="118" rx="14" fill="url(#g)"/>
+  <rect x="1" y="1" width="268" height="118" rx="14" fill="none" stroke="#e4dcef" stroke-width="2"/>
+  <path d="M238 22l10-10M240 12h8v8" fill="none" stroke="#2e2945" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" fill="#2e2945">
+    <text x="20" y="44" font-size="23" font-weight="700">Gastosaurus</text>
+    <text x="20" y="76" font-size="15">budget tracker + dino friend</text>
+    <text x="20" y="100" font-size="13.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#4a4360">full stack</text>
+  </g>
+</svg>
